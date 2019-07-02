@@ -1,0 +1,30 @@
+{
+  "name": "webpacks",
+  "version": "1.0.0",
+  "description": "A simple webpack example.",
+  "main": "b.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "a:build": "webpack --config ./webpack.var.config.js",
+    "a:common1": "webpack --config ./webpack.common.config.js",
+    "chunk:build": "webpack --config ./webpack.chunk.config.js",
+    "dynamic:build": "webpack --config ./webpack.chunk.dynamic.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "lixiaoxuan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "lodash": "^4.17.11",
+    "path": "^0.12.7",
+    "webpack": "4.35.0",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {}
+}
